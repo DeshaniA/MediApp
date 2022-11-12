@@ -30,7 +30,7 @@ import Sound_pres from './prescription/Sound'
 import Login from './logreg/Login'
 import Register from './logreg/Register'
 
-import PiCharts from './charts/piechart'
+
 
 import CustomBtn from './custombtn/CustomBtn'
 import { StyleSheet, Text, View } from 'react-native'
@@ -68,7 +68,7 @@ class AppNavigator extends Component {
                     <Stack.Screen name="Home_pres" component={Home_pres} />
                     <Stack.Screen name="Detail_pres" component={Detail_pres} />
 
-                    <Stack.Screen name="PiCharts" component={PiCharts} />
+                    
 
                     <Stack.Screen name="Sound" component={Sound} />
                 </Stack.Navigator> 

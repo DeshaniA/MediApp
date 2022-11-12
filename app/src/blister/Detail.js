@@ -98,10 +98,11 @@ class Detail extends Component {
                                 numberOfLines={10}
                                 style={{ minHeight: 200, textAlignVertical: 'top', backgroundColor: "#F6F6F6", width: "100%", borderRadius: 12, marginTop: 20, padding: 20 }} />
                         </View>
+                    {/*
                         <TouchableOpacity onPress={this.saveData} style={{ width: "100%", height: 50, backgroundColor: "#23527C", marginTop: 20, borderRadius: 10, justifyContent: "center", alignItems: "center" }} >
                             <LatoText text={"SAVE"} fontSize={18} color="#FFF" />
                         </TouchableOpacity>
-
+        */}  
                     </View>
                 </ScrollView>
             </KeyboardAvoidingView>
